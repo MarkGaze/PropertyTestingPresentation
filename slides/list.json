@@ -2,15 +2,20 @@
     "index.md",
     "introduction.md",
     [
+        "unit-testing-header.html",
         "unit-testing.html",
+        "unit-testing-advantages.html",
         "unit-testing-code.html",
         "unit-testing-test.html"
     ],
     [
-        "example-based-testing.md"
+        "example-based-testing.html",
+        "example-based-testing-summary.html",
+        "example-based-testing-examples.html",
+        "example-based-testing-disadvantages.html"
     ],
     [
-        "property-based-testing.md"
+        "property-based-testing.html"
     ],
     "demo.md"
 ]
