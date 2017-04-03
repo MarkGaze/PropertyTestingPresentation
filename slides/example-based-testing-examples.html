@@ -1,0 +1,22 @@
+<h2>Example-based Testing</h2>
+<h5>Examples</h5>
+
+<pre>
+    <code class="csharp">
+[Test]
+public void AddingTwoNumbers_ReturnsSum()
+{
+    int result = Add(1, 1);
+    Assert.AreEqual(2, result);
+}
+    </code>
+
+    <code class="csharp">
+[Test]
+public void AddingZero_ReturnsSameNumber()
+{
+    int result = Add(10, 0);
+    Assert.AreEqual(10, result);
+}
+    </code>
+</pre>

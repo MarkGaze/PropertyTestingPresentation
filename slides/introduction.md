@@ -1,6 +1,6 @@
 ##  Overview
 
-- Unit Testing
-- Example-based Testing
-- Property-based Testing
-- Demo
+Unit Testing  
+Example-Based Testing  
+Property-Based Testing  
+Demo
