@@ -1,4 +1,15 @@
 [
     "index.md",
-    "introduction.html"
+    "introduction.md",
+    [
+        "unit-testing.md",
+        "unit-testing-basics.md"
+    ],
+    [
+        "example-based-testing.md"
+    ],
+    [
+        "property-based-testing.md"
+    ],
+    "demo.md"
 ]
