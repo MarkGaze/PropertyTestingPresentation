@@ -1,0 +1,23 @@
+<h2>Property-based Testing</h2>
+
+<pre>
+    <code class="csharp">
+[TestMethod]
+public void AddSameNumber_IsEqualToTwoTimesTheSameNumber()
+{
+    var calculator = new Calculator();
+    Prop.ForAll(x => calculator.Add(x, x) == 2 * x)
+        .VerboseCheckThrowOnFailure();
+}
+    </code>
+
+    <code class="csharp">
+[TestMethod]
+public void AddZero_ResultIsEqualToNonZeroNumber()
+{
+    var calculator = new Calculator();
+    Prop.ForAll(x => calculator.Add(x, 0) == x)
+        .VerboseCheckThrowOnFailure();
+}
+    </code>
+</pre>

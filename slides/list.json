@@ -15,7 +15,9 @@
         "example-based-testing-disadvantages.html"
     ],
     [
-        "property-based-testing.html"
+        "property-based-testing.html",
+        "property-based-testing-summary.html",
+        "property-based-testing-examples.html"
     ],
     "demo.md"
 ]
