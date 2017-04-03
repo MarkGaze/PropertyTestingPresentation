@@ -2,8 +2,9 @@
     "index.md",
     "introduction.md",
     [
-        "unit-testing.md",
-        "unit-testing-basics.md"
+        "unit-testing.html",
+        "unit-testing-code.html",
+        "unit-testing-test.html"
     ],
     [
         "example-based-testing.md"
