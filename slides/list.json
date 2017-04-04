@@ -17,7 +17,12 @@
     [
         "property-based-testing.html",
         "property-based-testing-summary.html",
-        "property-based-testing-examples.html"
+        "property-based-testing-examples.html",
+        "property-based-testing-methods.html",
+        "property-based-testing.1.html",
+        "property-based-testing.2.html",
+        "property-based-testing.3.html",
+        "property-based-testing.4.html"
     ],
     "demo.md",
     "more.html"

@@ -1,0 +1,13 @@
+<h2>Property-based Testing</h2>
+<h5>"The more things change, the more they stay the same"</h5>
+
+<pre>
+    <code class="vs">
+int[] numbers = { 4, 2, 4, 16, 16};
+
+int[] distinct1 = numbers.Distinct(); //4, 2, 16
+int[] distinct2 = distinct1.Distinct(); //4, 2, 16
+
+return distinct1 == distinct2;
+    </code>
+</pre>
