@@ -19,5 +19,6 @@
         "property-based-testing-summary.html",
         "property-based-testing-examples.html"
     ],
-    "demo.md"
+    "demo.md",
+    "more.html"
 ]
