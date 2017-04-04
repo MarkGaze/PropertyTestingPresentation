@@ -1,0 +1,13 @@
+<h2>Property-based Testing</h2>
+<h5>"There and back again"</h5>
+
+<pre>
+    <code class="vs">
+int[] numbers = { 1, 2, 4, 8, 16 };
+
+int[] reversing = numbers.Reverse(); //16, 8, 4, 2, 1
+reversing = numbers.Reverse(); //1, 2, 4, 8, 16
+
+return numbers == reversing;
+    </code>
+</pre>
