@@ -4,9 +4,9 @@
     [
         "unit-testing-header.html",
         "unit-testing.html",
-        "unit-testing-advantages.html",
         "unit-testing-code.html",
-        "unit-testing-test.html"
+        "unit-testing-test.html",
+        "unit-testing-advantages.html"
     ],
     [
         "example-based-testing.html",

@@ -1,6 +1,3 @@
-##  Overview
+##  What is it?
 
-Unit Testing  
-Example-Based Testing  
-Property-Based Testing  
-Demo
+Property-based testing is a method of unit testing that allows a broader range of test conditions, whilst still writing the same amount (if not fewer!) test methods.
