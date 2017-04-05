@@ -22,7 +22,9 @@
         "property-based-testing.1.html",
         "property-based-testing.2.html",
         "property-based-testing.3.html",
-        "property-based-testing.4.html"
+        "property-based-testing.4.html",
+        "property-based-testing-other.html"
     ],
-    "demo.md"
+    "demo.md",
+    "more.html"
 ]

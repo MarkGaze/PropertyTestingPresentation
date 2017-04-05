@@ -6,7 +6,7 @@
 public void AddSameNumber_IsEqualToTwoTimesTheSameNumber()
 {
     var calculator = new Calculator();
-    Prop.ForAll(x => calculator.Add(x, x) == 2 * x);
+    Prop.ForAll(x => calculator.Add(x, x) == 2 * x).QuickCheck();
 }
     </code>
 
@@ -15,7 +15,7 @@ public void AddSameNumber_IsEqualToTwoTimesTheSameNumber()
 public void AddZero_ResultIsEqualToNonZeroNumber()
 {
     var calculator = new Calculator();
-    Prop.ForAll(x => calculator.Add(x, 0) == x);
+    Prop.ForAll(x => calculator.Add(x, 0) == x).QuickCheck();
 }
     </code>
 </pre>
